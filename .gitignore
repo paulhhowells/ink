@@ -1,18 +1,7 @@
-*.gem
-*.rbc
-.bundle
-.config
-coverage
-InstalledFiles
-lib/bundler/man
-pkg
-rdoc
-spec/reports
-test/tmp
-test/version_tmp
-tmp
+# Ignore mac files
+.DS_Store
+.DS_Store?
+[Tt]humbs.db
 
-# YARD artifacts
-.yardoc
-_yardoc
-doc/
+# Ignore files I mark to ignore
+__*
