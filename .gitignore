@@ -5,3 +5,5 @@
 
 # Ignore files I mark to ignore
 __*
+
+js/jquery-1.8.3.min.js
