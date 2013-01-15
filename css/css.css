@@ -1,0 +1,55 @@
+/*  D E F A U L T S  */
+html,body{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,body,div,span,abbr,strike,strong,em,sub,sup,cite,address,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,blockquote,pre,form,fieldset,legend,input,table,caption,tbody,tfoot,thead,tr,th,td,object,iframe,output{margin:0;padding:0;vertical-align:baseline;background-position:left top}
+pre,code,address,caption,cite,code,ul,ol,li{font-size:1em;font-weight:normal;font-style:normal;vertical-align:baseline;background-position:left top}
+em,strong,th{font-size:1em;vertical-align:baseline}
+pre{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}
+input,textarea{margin:0;padding:0;vertical-align:baseline}
+input[type=text],input[type=submit],input[type=password]{font-size:1em}
+select,option,textarea{font-size:1em}
+ul,ol{margin-top:0;margin-bottom:0}
+fieldset,img,a img{border:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+caption,th{text-align:left}
+img{vertical-align:bottom}
+p img{vertical-align:baseline}
+sup,sub{vertical-align:baseline;position:relative;top:-0.4em}
+sub{top:0.4em}
+code,kbd,pre,samp,tt{font-family:monospace,monospace;font-size:1em;line-height:100%;*font-size:108%}
+label,input[type=button],input[type=submit],button{cursor:pointer}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block}
+
+/*  B A S E  */
+body {
+  color: #333;
+  background-color: #555;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 2em;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+}
+
+
+code.output {
+	display: block;
+	font-family:"Courier New", Courier, monospace;
+	font-size: 14px;
+	/* 
+	white-space: normal;	
+	word-wrap: normal;
+	word-break: normal;
+	*/
+}
+pre,
+pre code {
+  -o-tab-size: 2;
+	-moz-tab-size: 2;
+	-webkit-tab-size: 2;	
+	tab-size: 2;
+}
+
+
