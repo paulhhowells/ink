@@ -23,7 +23,7 @@ audio,canvas,video{display:inline-block}
 
 /*  B A S E  */
 body {
-  color: #333;
+  color: #444;
   background-color: #555;
   font-family: sans-serif;
 }
@@ -53,3 +53,25 @@ pre code {
 }
 
 
+/* */
+.wrapper {
+  margin: 0 auto;
+  padding: 1em;
+  width: 30em;
+  background-color: #fff;
+}
+
+#output,
+#test {
+  margin: 1em;
+  padding: 1em;
+}
+
+.permutation {
+  overflow: hidden;
+}
+.permutation div {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
