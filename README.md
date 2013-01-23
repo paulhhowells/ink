@@ -17,3 +17,5 @@ The tidy boolean can be turned on while editing the javascript to improve the re
 + add .f-12-18 font-size | line-height format
 + tidy up var statements and better merge with the ink object.
   + use font_sizes property of ink object
++ look for ways to reduce the number of css rules: make an array of all the css rules and iterate through every combination while testing for errors
++ build a UI for choosing font-sizes and baselines
